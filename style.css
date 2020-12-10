@@ -23,4 +23,20 @@ a:hover {
 
 p, a {
   font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 0.15em;
 }
+
+
+
+.grow:hover {
+  transform: scale(1.01);
+  transition: all .25s ease-in-out;
+  }
+
+  .thickBorder {
+    border: 5px solid whitesmoke;
+  }
+
+  .bg-tan {
+    background-color: #f3f2ef;
+  }
