@@ -7,7 +7,7 @@ footer{ }
   border-radius: 35px;
 }
 
-i {
+.devicon {
   font-size: 48px;
 }
 
@@ -39,4 +39,21 @@ p, a {
 
   .bg-tan {
     background-color: #f3f2ef;
+  }
+
+  textarea {
+    resize: none;
+    width: 100%;
+    border-radius: 25px;
+  }
+
+  .textshadow {
+
+  }
+
+  .bar {
+    background-color: whitesmoke;
+    width: 100px;
+    height: 3px;
+    margin: 8px;
   }
