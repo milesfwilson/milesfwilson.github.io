@@ -6,19 +6,37 @@ body {
   background-position: center;
   background-size: cover;
 }
-header{ } 
+
 main{
   flex-grow: 1;
   scroll-behavior: smooth;
 } 
-footer{ }
+
+html {
+  scroll-behavior: smooth;
+
+}
+
 
 .radius {
   border-radius: 35px;
 }
 
-.devicon {
-  font-size: 48px;
+.slide {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 a {
@@ -35,7 +53,6 @@ p, a {
   font-family: 'Times New Roman', Times, serif;
   letter-spacing: 0.15em;
 }
-
 
 
 .grow:hover {
@@ -71,9 +88,6 @@ p, a {
   opacity: 1;
 }
 
-  .textshadow {
-
-  }
 
   .bar {
     background-color: whitesmoke;
@@ -96,7 +110,7 @@ p, a {
   }
 
   #portfolio {
-    height: 100vh;
+
   }
 
   #contact {
